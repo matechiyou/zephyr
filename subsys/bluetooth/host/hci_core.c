@@ -73,7 +73,7 @@
 
 #define LOG_LEVEL CONFIG_BT_HCI_CORE_LOG_LEVEL
 LOG_MODULE_REGISTER(bt_hci_core);
-
+//预编译宏-
 #if DT_HAS_CHOSEN(zephyr_bt_hci)
 #define BT_HCI_NODE   DT_CHOSEN(zephyr_bt_hci)
 #define BT_HCI_DEV    DEVICE_DT_GET(BT_HCI_NODE)
